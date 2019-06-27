@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  tomcat:
+    build: .
+    container_name: development
+    ports:
+      - 8001:8080
+    environment:
+      - spring.profiles.active=development

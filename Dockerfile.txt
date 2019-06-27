@@ -1,0 +1,3 @@
+FROM maiwj/curl:latest
+ADD FetchCompanyNameFromMac.sh .
+CMD ["/bin/sh","FetchCompanyNameFromMac.sh"]
